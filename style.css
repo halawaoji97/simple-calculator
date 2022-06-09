@@ -84,3 +84,9 @@ button:focus {
 .not {
   background-color: #ff0000;
 }
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: 90%;
+  }
+}
